@@ -4,9 +4,19 @@ function classProject(title, image, link) {
   this.link = link;
 }
 
-var aboutMe = new classProject('About Me', 'img/app-about-me-sm.jpg', 'https://annaul.github.io/about_me/');
-var busMall = new classProject('Bus Mall', 'img/app-busmall-sm.jpg', 'https://annaul.github.io/busmall/');
-var cookieStand = new classProject('Cookie Stand', 'img/app-cookie-stand-sm.jpg', 'https://annaul.github.io/cookie-stand/');
-var travelSite = new classProject('Travel Site', 'img/app-travel-site-sm.jpg', 'https://shortaj.github.io/Group_Project-Trip-Planner/');
+var aboutMe = new classProject('About Me', '/img/app-about-me-sm.jpg', 'https://annaul.github.io/about_me/');
+var busMall = new classProject('Bus Mall', '/img/app-busmall-sm.jpg', 'https://annaul.github.io/busmall/');
+var cookieStand = new classProject('Cookie Stand', '/img/app-cookie-stand-sm.jpg', 'https://annaul.github.io/cookie-stand/');
+var travelSite = new classProject('Travel Site', '/img/app-travel-site-sm.jpg', 'https://shortaj.github.io/Group_Project-Trip-Planner/');
 
-$('div.project').clone().appendTo('div.project');
+var allProjects = [aboutMe, busMall, cookieStand, travelSite];
+
+classProject.prototype.toHtml = function() {
+  var $newProject = $('div.template').clone().removeClass('template');
+  $newProject.find('img').attr('src', this.image).css({'width' : '98%' });
+  return $newProject;
+};
+
+allProjects.forEach(function(project){
+  $('.projects').append(project.toHtml());
+});
