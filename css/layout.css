@@ -1,0 +1,7 @@
+img {
+  max-width: 90%;
+}
+
+div img {
+  margin: 2%;
+}

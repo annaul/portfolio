@@ -12,3 +12,16 @@ var cookieStand = new classProject('Cookie Stand', '/img/app-cookie-stand-sm.jpg
 var travelSite = new classProject('Travel Site', '/img/app-travel-site-sm.jpg', 'https://shortaj.github.io/Group_Project-Trip-Planner/');
 
 var allProjects = [aboutMe, busMall, cookieStand, travelSite];
+
+classProject.prototype.toHtml = function() {
+
+  var templateScript = $('#project-template').html();
+  var template = Handlebars.compile(templateScript);
+  var compiledHtml = template(this);
+
+  return compiledHtml;
+};
+
+allProjects.forEach(function(a){
+  $('.content-placeholder').append(a.toHtml());
+});
