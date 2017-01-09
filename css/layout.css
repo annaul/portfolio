@@ -1,7 +1,17 @@
 img {
-  max-width: 90%;
+  max-width: 97%;
 }
 
-div img {
-  margin: 2%;
+.project-blocks {
+  display: block;
+  width: 97%;
+
+}
+
+@media (min-width: 600px){
+  .project-blocks {
+    display: inline-block;
+    width: 48%;
+
+  }
 }

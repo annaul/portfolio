@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/module.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
     <script id="project-template" type="text/x-handlebars-template">
-      <section class="clearfix">
-
-        <div>
-          <h3>{{title}}</h3>
-          <a href="{{link}}"><img src="{{image}}"></a>
-        </div>
+      <!-- <section class="clearfix"> -->
+      <div class="project-blocks">
+        <h3>{{title}}</h3>
+        <img src="{{image}}" class="img-button">
+        <article class="project-descriptions">
+          <p>{{text}}</p>
+        <article>
+      </div>
 
       </section>
     </script>
