@@ -1,4 +1,4 @@
-/*img {
+img {
   max-width: 97%;
 }
 
@@ -6,18 +6,12 @@
   display: block;
   width: 97%;
 
-}*/
+}
 
-@media (min-width: 600px) {
+@media (min-width: 600px){
   .project-blocks {
     display: inline-block;
     width: 48%;
 
-  }
-}
-
-@media (max-width: 599px) {
-  .project-blocks {
-    display: block;
   }
 }
