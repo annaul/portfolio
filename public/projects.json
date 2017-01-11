@@ -1,4 +1,5 @@
-[{"title":"About Me",
+[
+  {"title":"About Me",
   "image":"/img/app-about-me-sm.jpg",
   "link":"https://annaul.github.io/about_me/",
   "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habent enim et bene longam et satis litigiosam disputationem. Sed tu istuc dixti bene Latine, parum plane. Duo Reges: constructio interrete. Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Eiuro, inquit adridens, iniquum, hac quidem de re; Que Manilium, ab iisque M."},
@@ -16,4 +17,5 @@
   {"title":"Travel Site",
   "image":"/img/app-travel-site-sm.jpg",
   "link":"https://shortaj.github.io/Group_Project-Trip-Planner/",
-  "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habent enim et bene longam et satis litigiosam disputationem. Sed tu istuc dixti bene Latine, parum plane. Duo Reges: constructio interrete. Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Eiuro, inquit adridens, iniquum, hac quidem de re; Que Manilium, ab iisque M."}]
+  "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habent enim et bene longam et satis litigiosam disputationem. Sed tu istuc dixti bene Latine, parum plane. Duo Reges: constructio interrete. Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Eiuro, inquit adridens, iniquum, hac quidem de re; Que Manilium, ab iisque M."}
+]
