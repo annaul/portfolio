@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <link rel="icon" href="img/AUFavicon.png" type="image/gif" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/e93af6e06e.js"></script>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/module.css">
     <script id="project-template" type="text/x-handlebars-template">
-      <!-- <section class="clearfix"> -->
+
       <div class="project-blocks">
         <h3>{{title}}</h3>
         <img src="{{image}}" class="img-button">
@@ -23,22 +24,35 @@
 
   </head>
   <body>
+
+    <div id="social-nav">
+      <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+    </div>
+
     <h1>Anna Ulanova</h1>
     <section>
       <ul>
       </ul>
     </section>
+
     <section>
       <h2>These are my student projects so far:</h2>
+
       <div class="content-placeholder">
 
       </div>
     </section>
+
     <footer>
     </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script src="/js/projects.js"></script>
     <script src="/js/app.js"></script>
+
   </body>
 </html>

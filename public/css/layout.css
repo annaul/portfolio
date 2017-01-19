@@ -1,13 +1,15 @@
-img {
-  max-width: 97%;
+#social-nav {
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
 }
-
+img {
+  max-width: 99%;
+}
 .project-blocks {
   display: block;
-  width: 97%;
-
+  width: 98%;
 }
-
 @media (min-width: 600px){
   .project-blocks {
     display: inline-block;
