@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/annaul/portfolio#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "handlebars": "^4.0.6"
   }
 }
