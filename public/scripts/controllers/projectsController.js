@@ -3,6 +3,7 @@
 (function(module) {
   const projectsController = {};
   projectsController.index = () => {
+    $('#about').hide();
     $.getJSON('/projects.json', (data) => {
       const allProjects = data.map((p) => (
         new classProject(p.title, p.image, p.link, p.text)
