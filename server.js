@@ -9,6 +9,10 @@ app.get('/index.html', function(request, response) {
   response.sendFile('index.html', {root: './public'});
 });
 
+app.get('/about', function(request, response) {
+  response.sendFile('index.html', {root: './public'});
+});
+
 app.get('*', function(request, response) {
   response.status(404).send('sorry! nothing here!');
 })
