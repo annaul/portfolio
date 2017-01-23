@@ -4,6 +4,7 @@
   const projectsView = {};
 
   projectsView.renderProjects = function(projects) {
+    $('#about').hide();
     const templateScript = $('#project-template').html();
     const template = Handlebars.compile(templateScript);
     projects.map(function(project) {

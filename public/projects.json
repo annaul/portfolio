@@ -1,20 +1,28 @@
 [
-  {"title":"About Me",
-  "image":"/img/app-about-me-sm.jpg",
-  "link":"https://annaul.github.io/about_me/",
-  "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habent enim et bene longam et satis litigiosam disputationem. Sed tu istuc dixti bene Latine, parum plane. Duo Reges: constructio interrete. Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Eiuro, inquit adridens, iniquum, hac quidem de re; Que Manilium, ab iisque M."},
+  {
+    "name": "about_me",
+    "title": "About Me",
+    "image": "/img/app-about-me-sm.jpg",
+    "link":"https://annaul.github.io/about_me/",
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habent enim et bene longam et satis litigiosam disputationem. Sed tu istuc dixti bene Latine, parum plane. Duo Reges: constructio interrete. Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Eiuro, inquit adridens, iniquum, hac quidem de re; Que Manilium, ab iisque M."},
 
- {"title":"Bus Mall",
+ {
+   "name": "busmall",
+   "title": "Bus Mall",
   "image":"/img/app-busmall-sm.jpg",
   "link":"https://annaul.github.io/busmall/",
   "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habent enim et bene longam et satis litigiosam disputationem. Sed tu istuc dixti bene Latine, parum plane. Duo Reges: constructio interrete. Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Eiuro, inquit adridens, iniquum, hac quidem de re; Que Manilium, ab iisque M."},
 
- {"title":"Cookie Stand",
+ {
+   "name": "cookie-stand",
+   "title": "Cookie Stand",
   "image":"/img/app-cookie-stand-sm.jpg",
   "link":"https://annaul.github.io/cookie-stand/",
   "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habent enim et bene longam et satis litigiosam disputationem. Sed tu istuc dixti bene Latine, parum plane. Duo Reges: constructio interrete. Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Eiuro, inquit adridens, iniquum, hac quidem de re; Que Manilium, ab iisque M."},
 
-  {"title":"Travel Site",
+  {
+    "name": "",
+    "title":"Travel Site",
   "image":"/img/app-travel-site-sm.jpg",
   "link":"https://shortaj.github.io/Group_Project-Trip-Planner/",
   "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habent enim et bene longam et satis litigiosam disputationem. Sed tu istuc dixti bene Latine, parum plane. Duo Reges: constructio interrete. Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Eiuro, inquit adridens, iniquum, hac quidem de re; Que Manilium, ab iisque M."}
